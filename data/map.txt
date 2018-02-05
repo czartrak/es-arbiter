@@ -90,6 +90,7 @@ system "54559-8"
 system "54559-10"
 	pos -2262 -2860
 	link "54559-11"
+	link "54559-13"
 	government Arbiter
 	habitable 425.92
 	belt 1221
@@ -111,7 +112,7 @@ system "54559-10"
 system "54559-11"
 	pos -2278 -2851
 	link "54559-10"
-    link "54551-12"
+	link "54559-12"
 	government Arbiter
 	habitable 425.92
 	belt 1221
@@ -133,7 +134,8 @@ system "54559-11"
 system "54559-12"
 	pos -2329 -2894
 	link "54559-11"
-    link "54559-13"
+	link "54559-13"
+	link "54559-14"
 	government Arbiter
 	habitable 425.92
 	belt 1221
@@ -150,8 +152,9 @@ system "54559-12"
 
 system "54559-13"
 	pos -2281 -2946
+	link "54559-10"
 	link "54559-12"
-    link "54551-14"
+	link "54559-14"
 	government Arbiter
 	habitable 425.92
 	belt 1221
@@ -169,6 +172,7 @@ system "54559-13"
 system "54559-14"
 	pos -2320 -2982
 	link "54559-13"
+	link "54559-12"
 	government Arbiter
 	habitable 425.92
 	belt 1221
