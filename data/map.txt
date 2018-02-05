@@ -1,0 +1,222 @@
+galaxy "Hoag's object"
+	pos -2000 -3000
+	sprite ui/hoags
+
+system Wolf
+	pos -823 100
+	government Uninhabited
+	habitable 670
+	belt 1354
+	object "Hoag wormhole"
+		sprite planet/wormhole-red
+		distance 2077.64
+		period 1835.49
+
+system "54559-1"
+	pos -1950 -2700
+	government Uninhabited
+	habitable 425.92
+	belt 1221
+	object "Hoag wormhole"
+		sprite planet/wormhole-red
+		distance 2077.64
+		period 1835.49
+
+system "54559-2"
+	pos -2025 -2730
+	government Uninhabited
+	habitable 425.92
+	belt 1221
+
+system "54559-3"
+	link "54559-4"
+	pos -2105 -2735
+	government Uninhabited
+	habitable 425.92
+	belt 1221
+
+system "54559-4"
+	link "54559-3"
+	link "54559-6"
+	pos -2080 -2753
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	fleet "Small Arbiter" 1000
+	object
+		sprite star/g0
+		period 10
+	object "Arbiter Station 1"
+		sprite planet/station_hoag
+		distance 278
+		period 10.5056
+
+system "54559-5"
+	pos -1913 -2715
+	government Uninhabited
+	habitable 425.92
+	belt 1221
+
+system "54559-6"
+	link "54559-4"
+	pos -2100 -2762
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	fleet "Medium Arbiter" 1000
+	object
+		sprite star/g1
+		period 10
+	object "Arbiter Station 2"
+		sprite planet/station_hoag
+		distance 500
+		period 10.5056
+
+system "54559-8"
+	pos -2200 -2775
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	fleet "Small Arbiter" 1000
+	fleet "Medium Arbiter" 1000
+	object
+		sprite star/g0
+		period 10
+	object "Arbiter Station 4"
+		sprite planet/station_hoag
+		distance 500
+		period 10.5056
+
+system "54559-10"
+	pos -2262 -2860
+	link "54559-11"
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	trade Electronics 877
+	trade Equipment 661
+	trade "Heavy Metals" 868
+	trade Metal 421
+	trade Plastic 402
+	fleet "Small Arbiter" 1000
+	fleet "Medium Arbiter" 1000
+	object
+		sprite star/g0
+		period 10
+	object "Range 1"
+		sprite planet/water1
+		distance 750
+		period 10.5056
+
+system "54559-11"
+	pos -2278 -2851
+	link "54559-10"
+    link "54551-12"
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	trade Electronics 877
+	trade Equipment 661
+	trade "Heavy Metals" 868
+	trade Metal 421
+	trade Plastic 402
+	fleet "Small Arbiter" 1000
+	fleet "Medium Arbiter" 1000
+	object
+		sprite star/g0
+		period 10
+	object "Range 2"
+		sprite planet/forest2
+		distance 750
+		period 10.5056
+
+system "54559-12"
+	pos -2329 -2894
+	link "54559-11"
+    link "54559-13"
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	trade Electronics 877
+	trade Equipment 661
+	trade "Heavy Metals" 868
+	trade Metal 421
+	trade Plastic 402
+	fleet "Small Arbiter" 1000
+	fleet "Medium Arbiter" 1000
+	object
+		sprite star/g0
+		period 10
+
+system "54559-13"
+	pos -2281 -2946
+	link "54559-12"
+    link "54551-14"
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	trade Electronics 877
+	trade Equipment 661
+	trade "Heavy Metals" 868
+	trade Metal 421
+	trade Plastic 402
+	fleet "Small Arbiter" 1000
+	fleet "Medium Arbiter" 1000
+	object
+		sprite star/g0
+		period 10
+
+system "54559-14"
+	pos -2320 -2982
+	link "54559-13"
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	trade Electronics 877
+	trade Equipment 661
+	trade "Heavy Metals" 868
+	trade Metal 421
+	trade Plastic 402
+	fleet "Small Arbiter" 1000
+	fleet "Medium Arbiter" 1000
+	object
+		sprite star/g0
+		period 10
+
+planet "Arbiter Station 1"
+	attributes station Arbiter
+	landscape land/station0
+	description `<description>`
+	spaceport `<spaceport>`
+
+planet "Arbiter Station 2"
+	attributes station Arbiter
+	landscape land/station0
+	description `<description>`
+	spaceport `<spaceport>`
+
+planet "Arbiter Station 3"
+	attributes station Arbiter
+	landscape land/station0
+	description `<description>`
+	spaceport `<spaceport>`
+
+planet "Arbiter Station 4"
+	attributes station Arbiter
+	landscape land/station0
+	description `<description>`
+	spaceport `<spaceport>`
+
+planet "Range 1"
+	attributes station Arbiter
+	landscape land/water11-harro
+	description `This is the first test range of the Arbiter. No actual testing is conducted here. There are, however, many buildings dedicated to loading freighters and preparing equipment for export. The planet itself is mostly water, with small patches of land full of rivers and ponds. The atmosphere is breathable, warm and a bit denser than on Earth. There is also much more oxygen. It is one of the most pleasurable atmospheres and planets you have encountered. If it weren't for all those exciting space adventures, you would be more than happy to settle here.`
+	spaceport `<spaceport>`
+
+planet "Range 2"
+	attributes station Arbiter
+	landscape land/sky5
+	description `This range is dedicated for non-military technology testing. You can see many T-shaped aircraft cruising in the sky, and small autonomous rovers driving around. The air here is very dry and rough to breathe. Sometimes you can hear far explosions, but in a local terminal you can read that it comes from testing of mining explosives. The terminal also mentions many underground facilities that house experimental power plant designs.`
+	spaceport `<spaceport>`
+
+planet "Hoag wormhole"

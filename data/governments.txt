@@ -1,0 +1,5 @@
+government "Arbiter"
+	swizzle 4
+	color .80 .80 .20
+	
+	"player reputation" 10
