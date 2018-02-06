@@ -156,7 +156,10 @@ system "54559-13"
 	link "54559-10"
 	link "54559-12"
 	link "54559-14"
+<<<<<<< HEAD
 	link "54559-15"
+=======
+>>>>>>> 39c6cc4d29a5759ba740776d074e9b02eba837c1
 	government Arbiter
 	habitable 425.92
 	belt 1221
