@@ -71,6 +71,7 @@ fleet "Arbiter Freighter Test B"
 		timid frugal appeasing staying
 	variant 1
 		"Arbiter Freighter" 1
+<<<<<<< HEAD
 
 fleet "Arbiter Sparrow Test B"
 	government "Arbiter (Test B)"
@@ -81,3 +82,5 @@ fleet "Arbiter Sparrow Test B"
 		staying
 	variant 1
 		"Arbiter Sparrow" 1
+=======
+>>>>>>> e0888b10599435b531588ee5a5709b8ab1ce894e
