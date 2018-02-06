@@ -4,14 +4,14 @@ ship "Arbiter Freighter"
 	attributes
 		category "Light Freighter"
 		"cost" 2500000
-		"shields" 5000
-		"hull" 4000
-		"required crew" 2
-		"bunks" 7
-		"mass" 240
+		"shields" 4000
+		"hull" 3000
+		"required crew" 3
+		"bunks" 5
+		"mass" 320
 		"drag" 5.6
 		"heat dissipation" .6
-		"fuel capacity" 1200
+		"fuel capacity" 900
 		"cargo space" 150
 		"outfit space" 250
 		"weapon capacity" 80
@@ -22,8 +22,8 @@ ship "Arbiter Freighter"
 			"hull damage" 200
 			"hit force" 600
 	outfits
-		"Blaster Turret" 2
-		"Heavy Anti-Missile Turret"
+		"Heavy Laser Turret" 2
+		"Arbiter Anti-Missile"
 		
 		"nGVF-EE Fuel Cell"
 		"LP036a Battery Pack"
@@ -44,3 +44,47 @@ ship "Arbiter Freighter"
 	explode "medium explosion" 20
 	"final explode" "final explosion small"
 	description "The Arbiter developed this ship so he can export his equipment into the human space without recieving too much attention. It uses the same hull as the Freighter, but is much stronger and comes with a jump drive."
+
+ship "Arbiter Sparrow"
+	sprite "ship/sparrow"
+	"never disabled"
+	attributes
+		category "Interceptor"
+		"cost" 225000
+		"shields" 1200
+		"hull" 300
+		"required crew" 1
+		"bunks" 2
+		"mass" 50
+		"drag" 1.0
+		"heat dissipation" .8
+		"fuel capacity" 300
+		"cargo space" 15
+		"outfit space" 130
+		"weapon capacity" 20
+		"engine capacity" 40
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"Sidewinder Missile Launcher" 1
+		"Sidewinder Missile" 150
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Jump Drive"
+		"Hyperdrive"
+		
+	engine -5 35
+	engine 5 35
+	gun -7 -10
+	gun 7 -10
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "<description>"

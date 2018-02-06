@@ -51,3 +51,33 @@ fleet "Arbiter Merchant"
 		"Arbiter Freighter" 3
 	variant 1
 		"Arbiter Freighter" 4
+
+fleet "Arbiter Freighter Test A"
+	government "Arbiter (Test A)"
+	names "republic small"
+	cargo 0
+	personality
+		confusion 30
+		timid frugal appeasing staying
+	variant 1
+		"Arbiter Freighter" 1
+
+fleet "Arbiter Freighter Test B"
+	government "Arbiter (Test B)"
+	names "republic small"
+	cargo 0
+	personality
+		confusion 30
+		timid frugal appeasing staying
+	variant 1
+		"Arbiter Freighter" 1
+
+fleet "Arbiter Sparrow Test B"
+	government "Arbiter (Test B)"
+	names "republic small"
+	cargo 0
+	personality
+		confusion 30
+		staying
+	variant 1
+		"Arbiter Sparrow" 1
