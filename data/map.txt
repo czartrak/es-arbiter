@@ -90,6 +90,25 @@ system "54559-8"
 system "54559-10"
 	pos -2262 -2860
 	link "54559-11"
+	link "54559-13"
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	trade Electronics 877
+	trade Equipment 661
+	trade "Heavy Metals" 868
+	trade Metal 421
+	trade Plastic 402
+	fleet "Small Arbiter" 1000
+	fleet "Medium Arbiter" 1000
+	object
+		sprite star/g0
+		period 10
+
+system "54559-11"
+	pos -2278 -2851
+	link "54559-10"
+	link "54559-12"
 	government Arbiter
 	habitable 425.92
 	belt 1221
@@ -108,10 +127,11 @@ system "54559-10"
 		distance 750
 		period 10.5056
 
-system "54559-11"
-	pos -2278 -2851
-	link "54559-10"
-    link "54551-12"
+system "54559-12"
+	pos -2329 -2894
+	link "54559-11"
+	link "54559-13"
+	link "54559-14"
 	government Arbiter
 	habitable 425.92
 	belt 1221
@@ -125,33 +145,18 @@ system "54559-11"
 	object
 		sprite star/g0
 		period 10
+		
 	object "Range 2"
 		sprite planet/forest2
 		distance 750
 		period 10.5056
 
-system "54559-12"
-	pos -2329 -2894
-	link "54559-11"
-    link "54559-13"
-	government Arbiter
-	habitable 425.92
-	belt 1221
-	trade Electronics 877
-	trade Equipment 661
-	trade "Heavy Metals" 868
-	trade Metal 421
-	trade Plastic 402
-	fleet "Small Arbiter" 1000
-	fleet "Medium Arbiter" 1000
-	object
-		sprite star/g0
-		period 10
-
 system "54559-13"
 	pos -2281 -2946
+	link "54559-10"
 	link "54559-12"
-    link "54551-14"
+	link "54559-14"
+	link "54559-15"
 	government Arbiter
 	habitable 425.92
 	belt 1221
@@ -169,6 +174,7 @@ system "54559-13"
 system "54559-14"
 	pos -2320 -2982
 	link "54559-13"
+	link "54559-12"
 	government Arbiter
 	habitable 425.92
 	belt 1221
@@ -182,6 +188,28 @@ system "54559-14"
 	object
 		sprite star/g0
 		period 10
+
+system "54559-15"
+	pos -2254 -2938
+	link "54559-13"
+	government Arbiter
+	habitable 425.92
+	belt 1221
+	trade Electronics 877
+	trade Equipment 661
+	trade "Heavy Metals" 868
+	trade Metal 421
+	trade Plastic 402
+	fleet "Arbiter Freighter Test A" 600
+	fleet "Arbiter Freighter Test B" 600
+	object
+		sprite star/g0
+		period 10
+	object "Range 3"
+		sprite planet/valley15-harro
+		distance 750
+		period 10.5056
+
 
 planet "Arbiter Station 1"
 	attributes station Arbiter
@@ -217,6 +245,12 @@ planet "Range 2"
 	attributes station Arbiter
 	landscape land/sky5
 	description `This range is dedicated for non-military technology testing. You can see many T-shaped aircraft cruising in the sky, and small autonomous rovers driving around. The air here is very dry and rough to breathe. Sometimes you can hear far explosions, but in a local terminal you can read that it comes from testing of mining explosives. The terminal also mentions many underground facilities that house experimental power plant designs.`
+	spaceport `<spaceport>`
+
+planet "Range 3"
+	attributes station Arbiter
+	landscape land/valley15-harro
+	description `This is the Range that developed the modified Freighter that the Arbiter is using to access the rest of the galaxy. You can see many huge factories full of incomplete Freighter hulls. You also notice that most of these hulls are being fitted with interiors that are completely different when compared to the human Freighter you know.`
 	spaceport `<spaceport>`
 
 planet "Hoag wormhole"

@@ -4,14 +4,14 @@ ship "Arbiter Freighter"
 	attributes
 		category "Light Freighter"
 		"cost" 2500000
-		"shields" 5000
-		"hull" 4000
-		"required crew" 2
-		"bunks" 7
-		"mass" 240
+		"shields" 4000
+		"hull" 3000
+		"required crew" 3
+		"bunks" 5
+		"mass" 320
 		"drag" 5.6
 		"heat dissipation" .6
-		"fuel capacity" 1200
+		"fuel capacity" 900
 		"cargo space" 150
 		"outfit space" 250
 		"weapon capacity" 80
