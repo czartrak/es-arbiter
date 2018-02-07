@@ -1,6 +1,6 @@
 fleet "Small Arbiter"
 	government "Arbiter"
-	names "republic small"
+	names "arbiter"
 	cargo 0
 	personality
 		heroic opportunistic
@@ -19,7 +19,7 @@ fleet "Small Arbiter"
 
 fleet "Medium Arbiter"
 	government "Arbiter"
-	names "republic small"
+	names "arbiter"
 	cargo 0
 	personality
 		heroic opportunistic
@@ -38,7 +38,7 @@ fleet "Medium Arbiter"
 
 fleet "Arbiter Merchant"
 	government "Arbiter"
-	names "republic small"
+	names "arbiter"
 	cargo 4
 	personality
 		confusion 30
@@ -51,3 +51,33 @@ fleet "Arbiter Merchant"
 		"Arbiter Freighter" 3
 	variant 1
 		"Arbiter Freighter" 4
+
+fleet "Arbiter Freighter Test A"
+	government "Arbiter (Test A)"
+	names "arbiter"
+	cargo 0
+	personality
+		confusion 30
+		timid frugal appeasing staying
+	variant 1
+		"Arbiter Freighter" 1
+
+fleet "Arbiter Freighter Test B"
+	government "Arbiter (Test B)"
+	names "arbiter"
+	cargo 0
+	personality
+		confusion 30
+		timid frugal appeasing staying
+	variant 1
+		"Arbiter Freighter" 1
+
+fleet "Arbiter Sparrow Test B"
+	government "Arbiter (Test B)"
+	names "arbiter"
+	cargo 0
+	personality
+		confusion 30
+		staying
+	variant 1
+		"Arbiter Sparrow" 1
